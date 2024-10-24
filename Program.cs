@@ -45,17 +45,17 @@ namespace Cronometro
             Console.WriteLine("Esolha a opção de cronometro que deseja:");
             Console.WriteLine("");
 
-            Console.WriteLine("----------------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------");
             Console.WriteLine("[Minutos]  -> Digite o Número e no final adicione o (m)");
             Console.WriteLine("[Segundos] -> Digite o número e no final adicione o (s)");
             Console.WriteLine("[Zero-0]   -> Sair do Cronometro");
-            Console.WriteLine("----------------------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------");
 
             Console.WriteLine("");
 
             Console.Write("Como você deseja contar?:  ");
             string opcao = Console.ReadLine().ToLower();
-            Console.WriteLine("----------------------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------");
 
             try
             {
@@ -91,21 +91,22 @@ namespace Cronometro
         // Classe responsavel pela contagem do cronometro (Lógica)
         static void Iniciar(int tempo) // Parametro usado "tempo"
         {
+            Console.Clear();
+
+            Console.WriteLine("-=-=-=-=-=- Cronometro Ativado -=-=-=-=-=-");
+            Console.WriteLine("");
+
             int MinutoAtual = 0; 
 
             while (MinutoAtual != tempo) 
             {
-                Console.Clear();
-
-                Console.WriteLine("-=-=-=-=-=- Cronometro Ativado -=-=-=-=-=-");
-                Console.WriteLine("");
-                
                 MinutoAtual++;
                 Console.WriteLine($"Tic Tac, Tic Tac: {MinutoAtual}");
-                Console.WriteLine("------------------------------------------");
 
                 Thread.Sleep(1000); 
             }
+
+            Console.WriteLine("------------------------------------------");
 
             Console.Clear();
             Console.WriteLine("-=-=-=-=-=- Cronometro Finalizado! -=-=-=-=-=-");
