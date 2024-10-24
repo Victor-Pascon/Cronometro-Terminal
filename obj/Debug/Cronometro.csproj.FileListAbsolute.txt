@@ -1,0 +1,7 @@
+C:\Users\Usuario\Documents\PasconDev\CursosDev\CursoBalta\Cronometro\bin\Debug\Cronometro.exe.config
+C:\Users\Usuario\Documents\PasconDev\CursosDev\CursoBalta\Cronometro\bin\Debug\Cronometro.exe
+C:\Users\Usuario\Documents\PasconDev\CursosDev\CursoBalta\Cronometro\bin\Debug\Cronometro.pdb
+C:\Users\Usuario\Documents\PasconDev\CursosDev\CursoBalta\Cronometro\obj\Debug\Cronometro.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\PasconDev\CursosDev\CursoBalta\Cronometro\obj\Debug\Cronometro.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\PasconDev\CursosDev\CursoBalta\Cronometro\obj\Debug\Cronometro.exe
+C:\Users\Usuario\Documents\PasconDev\CursosDev\CursoBalta\Cronometro\obj\Debug\Cronometro.pdb
